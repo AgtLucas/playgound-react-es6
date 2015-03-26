@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var uglify = require('gulp-uglify');
 var browserify = require('browserify');
 var babelify = require('babelify');
+var minifyify = require('minifyify');
 var source = require('vinyl-source-stream');
 
 gulp.task('build', function () {
@@ -13,6 +14,7 @@ gulp.task('build', function () {
   .transform(babelify)
   .bundle()
   .pipe(source('bundle.js'))
+  .pipe(minifyify(uglify()))
   .pipe(gulp.dest('dist'));
 });
 
