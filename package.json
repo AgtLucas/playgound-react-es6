@@ -18,5 +18,12 @@
   "homepage": "https://github.com/AgtLucas/playgound-react-es6",
   "dependencies": {
     "react": "^0.13.1"
+  },
+  "devDependencies": {
+    "babelify": "^5.0.4",
+    "browserify": "^9.0.3",
+    "gulp": "^3.8.11",
+    "gulp-uglify": "^1.1.0",
+    "vinyl-source-stream": "^1.1.0"
   }
 }
