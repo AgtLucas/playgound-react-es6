@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AgtLucas/playgound-react-es6/issues"
   },
-  "homepage": "https://github.com/AgtLucas/playgound-react-es6"
+  "homepage": "https://github.com/AgtLucas/playgound-react-es6",
+  "dependencies": {
+    "react": "^0.13.1"
+  }
 }
