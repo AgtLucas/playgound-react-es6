@@ -14,7 +14,7 @@ gulp.task('build', function () {
   .transform(babelify)
   .bundle()
   .pipe(source('bundle.js'))
-  .pipe(minifyify(uglify()))
+  .pipe(minifyify())
   .pipe(gulp.dest('dist'));
 });
 
