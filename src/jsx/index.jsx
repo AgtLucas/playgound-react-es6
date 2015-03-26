@@ -3,5 +3,5 @@ import Hello from './hello';
 
 React.render(
   <Hello />,
-  document.getElementById('main-content')
+  document.getElementById('main-container')
 );
